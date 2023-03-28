@@ -14,7 +14,7 @@ class Resit<I,S,Q,P,O>{
  class Kira{
    
    double subt = 0.0;
-   double sum = 0.0;
+   
   
     subtotal(Resit resit){
     subt = resit.quantity*resit.price;

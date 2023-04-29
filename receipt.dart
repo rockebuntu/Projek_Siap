@@ -31,6 +31,7 @@ void main(){
   print('               ${DateTime.now()}\n');
   var kira = Kira();
   print('Item              Size       Quantity        Price');
+  print('----              ----       --------        -----');
   var order1 = Resit('Cortado  ',6,1,12.50);
   var order2 = Resit('Americano',8,2,8.90);
   var order3 = Resit('Latte   ',12,3,11.00);

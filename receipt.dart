@@ -7,8 +7,9 @@ class Resit<I,S,Q,P,O>{
   
   Resit(this.item,this.size,this.quantity,this.price){
     print('$item          $size            $quantity            $price'); // better to use Stringvariable.padLeft(10); method
-  
+                                                                          // See below example
   }
+  
 }
 
  class Kira{
@@ -43,3 +44,10 @@ void main(){
   print('\n\n\n            Terima Kasih & Enjoy your coffee!');
   
 }
+
+// void main() {
+  
+//   var x = 'Item',y='Price',z='Total';
+  
+//   print('${x.padLeft(5)} ${y.padLeft(10)} ${z.padLeft(15)}');
+// }

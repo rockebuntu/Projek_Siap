@@ -6,7 +6,7 @@ class Resit<I,S,Q,P,O>{
   
   
   Resit(this.item,this.size,this.quantity,this.price){
-    print('$item          $size            $quantity            $price'); // better to use string.padLeft(10); method
+    print('$item          $size            $quantity            $price'); // better to use Stringvariable.padLeft(10); method
   
   }
 }

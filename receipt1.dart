@@ -29,4 +29,4 @@ void main(){
   print('Total need to pay for all items are : \$${a+b}');
   
 }
-// Total need to pay for all items are : $ 22.15) 
+// Total need to pay for all items are : $22.15
